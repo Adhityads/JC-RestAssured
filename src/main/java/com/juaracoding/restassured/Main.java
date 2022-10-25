@@ -1,4 +1,4 @@
-package com.juaracoding;
+package com.juaracoding.restassured;
 
 public class Main {
     public static void main(String[] args) {
