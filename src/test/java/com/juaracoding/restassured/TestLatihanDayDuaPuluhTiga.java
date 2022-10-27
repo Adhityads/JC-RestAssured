@@ -1,18 +1,14 @@
 package com.juaracoding.restassured;
 
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.json.simple.JSONObject;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class TestPostTestDuaPuluhtiga {
+public class TestLatihanDayDuaPuluhTiga {
     String auth_token;
 
 @Test(priority = 1)
